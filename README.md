@@ -1,1 +1,3 @@
 # Lock3dIn
+Lock3In is a file encryption and decryption tool built to ensure secure and efficient processing of sensitive data. The workflow begins with user input, where files are submitted to the tool. These files are transformed into tasks and passed to a dedicated process management class. This class oversees task submission into a queue system. Each task in the queue is handled one by one, either encrypting or decrypting the file based on the user’s request. Sequential execution of tasks ensures streamlined encryption and decryption operations while maintaining data integrity and security.
+
